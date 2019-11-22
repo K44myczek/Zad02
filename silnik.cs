@@ -1,13 +1,17 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace nowy_projekt02
 {
 
-
-    class silnik
+    [Serializable]
+    public class silnik
     {
+        public silnik()
+        {
+
+        }
         private double pojemnosc;
         private double ilosc_paliwa;
         private double pojemnosc_zbiornika_na_paliwo=40;
